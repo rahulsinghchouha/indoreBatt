@@ -2,9 +2,14 @@ import { CarOutlined, DownOutlined, ShopFilled, ShopOutlined, UserOutlined } fro
 import { Dropdown, Layout, Menu, Space, Typography } from "antd";
 import { Image } from "antd";
 import { RiBattery2ChargeFill } from "react-icons/ri";
+import {useNavigate} from 'react-router-dom';
+import { FiUser } from "react-icons/fi";
+import { TbShoppingCartBolt } from "react-icons/tb";
 
 import React from "react";
 const { Header } = Layout;
+
+
 
 const items1 = [
     {
@@ -210,27 +215,31 @@ const items2 = [
 
 const Navbar = () => {
 
+    const navigate = useNavigate();
+
 
     return (
         <div>
-            <Layout className=" w-[100%]">
+            <Layout  className=" w-[100%]  bg-white  mx-auto justify-center align-middle border-b-2">
                 <Header
-
-
                     theme
-                    className="border-b-2 bg-white h-15 w-[100%] flex justify-between"
+                    className="  bg-white  w-[95%] mx-auto flex justify-between items-center p-3 "
                 >
                     <Menu
-                        theme="white" className="flex align-middle w-[27%] mt-1 bg-white">
-                        <Menu.Item><Image width={40} src='./logo.svg' /><Typography.Title level={3} className="mb-3 ml-2 mr-96">Indore Battery</Typography.Title></Menu.Item>
-                     
-                     <Menu className="flex flex-row -ml-[150px]">
-                        <Menu.Item className="">
+                        theme="white" className="flex items-center">
+                        <Menu.Item>
+                            <Image  style={{width:35}} src='./logo.svg' className="" />
+                            <Typography.Title level={3} className="text-[22px] ml-1 title" >Indore Battery</Typography.Title>
+                                </Menu.Item>
+                                
+                      
+                      <Menu className="flex flex-row font-bold">
+                        <Menu.Item>
                             <Dropdown menu={{ items: items1 ,className:'custom-dropdown-menu'}}  overlayClassName="custom-dropdown-overlay" >
                                 <a onClick={(e) => e.preventDefault()}>
                                     <Space>
-                                        Categories
-                                        <DownOutlined />
+                                         Categories
+                                        <DownOutlined style={{color:'rgb(255 118 55)'}}/>
                                     </Space>
                                 </a>
                             </Dropdown>
@@ -240,7 +249,7 @@ const Navbar = () => {
                                 <a onClick={(e) => e.preventDefault()}>
                                     <Space>
                                         Brand
-                                        <DownOutlined/>
+                                        <DownOutlined style={{color:'rgb(255 118 55)'}}/>
                                     </Space>
                                 </a>
                             </Dropdown>
@@ -248,11 +257,18 @@ const Navbar = () => {
                         </Menu>
                         </Menu>
                 
-                    <Menu className="flex">
-                        <Menu.Item><UserOutlined /></Menu.Item>
-                        <Menu.Item><CarOutlined /></Menu.Item>
-                    </Menu>
+                    <Menu className="flex align-middle">
+                        <a href="https://indorebattery.com/login">
+                        <Menu.Item ><FiUser style={{fontSize:'24px',marginTop:8}}/></Menu.Item>
+
+                        </a>
+                        <a href="https://indorebattery.com/login" className="mt-2">
+                         <Menu.Item ><TbShoppingCartBolt style={{fontSize:'25px'}}/></Menu.Item>
+                        </a>
+                       </Menu>
+                   
                 </Header>
+
             </Layout>
         </div>
     )
