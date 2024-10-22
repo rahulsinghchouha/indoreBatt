@@ -1,61 +1,270 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-*{
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Sora";
 }
-p,.text{
+
+p,
+.text {
   font-family: "Sora";
 }
-.title{
+
+.title {
   font-family: "Oswald";
 }
 
 /* Styling the dropdown container */
 .custom-dropdown-overlay .ant-dropdown-menu {
-  background-color: #f7f7f7; /* Gray background */
-  border-radius: 8px; /* Rounded corners */
-  padding: 8px; /* Inner padding */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow */
+  background-color: #f7f7f7;
+  /* Gray background */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 8px;
+  /* Inner padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Shadow */
 }
 
-.ant-dropdown-menu, .ant-dropdown-menu-root, .ant-dropdown-menu-vertical
-{
+.ant-dropdown-menu,
+.ant-dropdown-menu-root,
+.ant-dropdown-menu-vertical {
   max-width: 400px;
   max-height: 500px;
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr  1fr; /* Defines three columns */
-  grid-template-rows: auto; /* Rows adjust to the content size */
-  gap: 10px; /* Space between the grid items */
-  
- 
+  grid-template-columns: 1fr 1fr;
+  /* Defines three columns */
+  grid-template-rows: auto;
+  /* Rows adjust to the content size */
+  gap: 10px;
+  /* Space between the grid items */
+
+
 }
-.ant-dropdown-menu-item, .ant-dropdown-menu-item-only-child{
+
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-item-only-child {
   display: flex;
   flex-direction: row;
   font-size: 14px;
-  font-weight:bold ;
+  font-weight: bold;
 }
-.menu ,.menu:hover{
-  cursor: pointer;
+
+.menu,
+.menu:hover {
+
   color: rgba(255, 118, 55);
 
 }
-/* .advertisement{
-  display: inline-block;
-  animation: rotateLeftToRight 2s ease-in-out infinite alternate;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* Creates 3 equal columns */
+  grid-template-rows: auto;
+  /* Automatically adjust row height */
+  /* Adds space between grid items */
 }
-@keyframes rotateLeftToRight {
-  0% {
-    transform: rotate(-20deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(20deg);
-  }
+
+/* .b1{
+  border-color:#e5e5e5 ;
+}
+.bg1{
+  background-color:#e5e5e5 ;
 } */
+.special-card:hover .b1 {
+  border-color: rgba(255, 118, 55);
+  cursor: pointer;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.special-card:hover .bg1 {
+  background-color: rgba(255, 118, 55);
+  cursor: pointer;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.special-card2:hover .b2 {
+  border-color: rgba(255, 118, 55);
+  cursor: pointer;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.special-card2:hover .bg2 {
+  background-color: rgba(255, 118, 55);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.special-card3:hover .b3 {
+  border-color: rgba(255, 118, 55);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.special-card3:hover .bg3 {
+  background-color: rgba(255, 118, 55);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.special-card4:hover .b4 {
+  border-color: rgba(255, 118, 55);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.special-card4:hover .bg4 {
+  background-color: rgba(255, 118, 55);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.buy1 {
+  opacity: 0;
+
+}
+
+.special-card:hover .buy1 {
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.buy2 {
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.special-card2:hover .buy2 {
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.buy3 {
+  opacity: 0;
+}
+
+.special-card3:hover .buy3 {
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+
+.buy4 {
+  opacity: 0;
+}
+
+.special-card4:hover .buy4 {
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: white
+}
+
+.round::after {
+  display: block;
+  width: 20px;
+
+  position: absolute;
+  content: '';
+  top: 31px;
+  right: -1px;
+
+  border-top: 18px solid #166534;
+  border-bottom: 18px solid transparent;
+  border-right: 18px solid transparent;
+
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee:hover {
+  display: fixed;
+}
+
+.help-section {
+
+  background-image: linear-gradient(to bottom, #070707b3, #070707b3), url("../public/freeToCall.png");
+
+}
+
+.review .swiper-button-next {
+  height: 35px;
+  width: 35px;
+  border: 2px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review .swiper-button-next::after {
+  font-size: 16px;
+}
+
+.review .swiper-button-prev {
+  height: 35px;
+  width: 35px;
+  border: 2px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review .swiper-button-prev::after {
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 30px;
+  padding-left: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+  background:#ff7637 ; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7637; 
+}
+.ant-card-body{
+  padding: 0px !important;
+}
+.scrollBar{
+  padding: 20px
+}

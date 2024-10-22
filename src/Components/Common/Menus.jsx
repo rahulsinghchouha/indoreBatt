@@ -6,7 +6,7 @@ import Title from "antd/es/skeleton/Title";
 
 const Menus = () => {
     return (
-        <div className="flex gap-8 ml-12 font-sm opacity-80 items-center mt-1 cursor-pointer text-sm text-bold">
+        <div className="flex gap-8 ml-12 font-sm opacity-80 items-center mt-2.5 mb-2.5 cursor-pointer text-sm text-bold  ">
             <a href="https://indorebattery.com/offers" className=" hover:text-orange-700">Special Offers</a>
             <a href="https://indorebattery.com/about-us"  className=" hover:text-orange-700">About US</a>
             <a href="https://indorebattery.com/warranty-registeration" className=" hover:text-orange-700"> Warranty Registration</a>
