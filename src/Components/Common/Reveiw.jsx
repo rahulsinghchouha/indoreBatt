@@ -46,7 +46,7 @@ const Review = () => {
 
     ]
     return (
-        <div className="h-[700px] w-[70%] mx-auto flex justify-center review relative">
+        <div className="h-[600px] w-[70%] mx-auto flex justify-center review relative">
             <button onClick={()=>{swiperRef.current.slidePrev()}} className="w-[35px] h-[35px] hover:bg-[#ff7637] text-white absolute transition-all bg-[#000000] flex items-center justify-center left-[-65px] top-[25%]"><img src="/swiperLefticon.png" alt="swiper left" /></button>
 			<button onClick={()=>{swiperRef.current.slideNext()}} className="w-[35px] h-[35px] hover:bg-[#ff7637] text-white absolute transition-all  bg-[#000000] flex items-center justify-center right-[-35px] top-[25%]"><img src="/swiperRighticon.png" alt="swiper right" /></button>
             <Swiper
@@ -100,6 +100,7 @@ const Review = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+
         </div>
     )
 

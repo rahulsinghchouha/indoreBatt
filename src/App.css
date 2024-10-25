@@ -8,7 +8,7 @@
   font-family: "Sora";
 }
 
-p,
+.sora, p,
 .text {
   font-family: "Sora";
 }
@@ -239,6 +239,11 @@ p,
 .review .swiper-button-prev::after {
   font-size: 16px;
 }
+
+.borDer{
+  border: 0.01px solid #e0d2d2;
+}
+
 
 ::-webkit-scrollbar {
   width: 5px;

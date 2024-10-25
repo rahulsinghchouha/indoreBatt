@@ -8,6 +8,8 @@ import KnowMore from './Components/KnowMore';
 import ShopCar from './Components/ShopCarBattery';
 import { RiCodeView } from 'react-icons/ri';
 import Review from './Components/Common/Reveiw';
+import Address from './Components/Common/Address';
+import Footer from './Components/Common/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <KnowMore />
       <ShopCar />
       <Review />
+      <Address/>
+      <Footer/>
     </div>
   );
 }
