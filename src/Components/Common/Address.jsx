@@ -5,7 +5,7 @@ const Address = () => {
 
 
     return (
-        <div className="w-[100%] h-[250px]  ">
+        <div className="w-[100%] h-[250px] z-20  ">
             <div className="w-[1319px] h-[194px] mx-auto bg-[#ff7637] flex justify-evenly items-center gap-4">
                 <div className=" border-white flex items-center">
                     <figure className="h-[69px] w-[69px]">

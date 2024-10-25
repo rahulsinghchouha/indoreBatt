@@ -46,6 +46,11 @@
 
 }
 
+.inputBorder{
+  border-radius: 0%;
+}
+
+
 .ant-dropdown-menu-item,
 .ant-dropdown-menu-item-only-child {
   display: flex;
