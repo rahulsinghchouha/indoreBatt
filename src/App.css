@@ -8,7 +8,8 @@
   font-family: "Sora";
 }
 
-.sora, p,
+.sora,
+p,
 .text {
   font-family: "Sora";
 }
@@ -46,7 +47,7 @@
 
 }
 
-.inputBorder{
+.inputBorder {
   border-radius: 0%;
 }
 
@@ -245,7 +246,7 @@
   font-size: 16px;
 }
 
-.borDer{
+.borDer {
   border: 0.01px solid #e0d2d2;
 }
 
@@ -258,23 +259,43 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px grey; 
+  box-shadow: inset 0 0 2px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
- ::-webkit-scrollbar-thumb {
-  background:#ff7637 ; 
+::-webkit-scrollbar-thumb {
+  background: #ff7637;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff7637; 
+  background: #ff7637;
 }
-.ant-card-body{
+
+.ant-card-body {
   padding: 0px !important;
 }
-.scrollBar{
+
+.scrollBar {
   padding: 20px
+}
+
+.footerBag {
+  position: relative;
+  z-index: 2;
+}
+
+
+.footerBag::after{
+  z-index: -2;
+  content: '';
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  height:1075px;
+  width: 1110px;
+  opacity: 40%;
+  background-color: #f4f4f4;
 }

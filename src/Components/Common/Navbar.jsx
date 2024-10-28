@@ -1,6 +1,6 @@
 import { CarOutlined, DownOutlined, ShopFilled, ShopOutlined, UserOutlined } from "@ant-design/icons";
 import { Dropdown, Layout, Menu, Space, Typography } from "antd";
-import { Image } from "antd";
+
 import { RiBattery2ChargeFill } from "react-icons/ri";
 import { useNavigate } from 'react-router-dom';
 import { FiUser } from "react-icons/fi";
@@ -228,7 +228,7 @@ const Navbar = () => {
                     <Menu
                         theme="white" className="flex items-center">
                         <Menu.Item>
-                            <Image style={{ width: 35 }} src='./logo.svg' className="" />
+                            <img style={{ width: 35 }} src='./logo.svg' className="" />
                             <Typography.Title level={3} className="text-[22px] ml-1 title" >Indore Battery</Typography.Title>
                         </Menu.Item>
 

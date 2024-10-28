@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "antd";
+
 
 const KnowMore = () => {
 
@@ -9,7 +9,7 @@ const KnowMore = () => {
                 <div className=" mt-24 flex justify-center items-center gap-14">
                     <div className="">
 
-                        <Image src='/knowmore.png' alt="know more" />
+                        <img src='/knowmore.png' alt="know more" />
 
                     </div>
                     <div className=" flex-flex-col gap-8">
@@ -30,28 +30,28 @@ const KnowMore = () => {
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/threeWheelers.png" alt="two wheeler image"></Image>
+                        <img src="/threeWheelers.png" alt="two wheeler image"></img>
                         <p >Three</p>
                         <p >Wheelers</p>
 
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/passengerVechile.png" alt="two wheeler image"></Image>
+                        <img src="/passengerVechile.png" alt="two wheeler image"></img>
                         <p >Passenger</p>
                         <p >Vechiles</p>
 
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/commercialVechile.png" alt="two wheeler image"></Image>
+                        <img src="/commercialVechile.png" alt="two wheeler image"></img>
                         <p >Commercial </p>
                         <p >Vehicles</p>
 
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/invertors.png" alt="two wheeler image"></Image>
+                        <img src="/invertors.png" alt="two wheeler image"></img>
                         <p >Inverter & </p>
                         <p >Batteries</p>
 
@@ -59,7 +59,7 @@ const KnowMore = () => {
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/eVehicles.png" alt="two wheeler image"></Image>
+                        <img src="/eVehicles.png" alt="two wheeler image"></img>
                         <p >E-Vehicles</p>
 
 
@@ -67,7 +67,7 @@ const KnowMore = () => {
                     </div>
                     <div className="border-[1px] h-28"></div>
                     <div className="flex flex-col justify-center items-center hover:cursor-pointer hover:text-[#ff7637]">
-                        <Image src="/otherApplications.png" alt="two wheeler image"></Image>
+                        <img src="/otherApplications.png" alt="two wheeler image"></img>
                         <p >Other</p>
                         <p > Applications</p>
 

@@ -47,10 +47,10 @@ const Footer = () => {
 
 
     return (
-        <div className="w-[100%]">
+        <div className="w-[100%] h-auto footerBag">
 
-            <div className="w-[100%] h-screen mx-auto flex justify-center ">
-                <div className="w-[740px]  bg-[#ffffff]">
+            <div className="w-[100%]   mx-auto flex justify-center ">
+                <div className="w-[740px]">
                     <div className="flex gap-4 w-[237px] h-[53.72px] items-center">
                         <figure className="w-[51px] h-[53.72px]">
                             <img src="/logo.svg" />
@@ -324,11 +324,6 @@ const Footer = () => {
                             </div>
 
                         </div>
-
-
-
-
-
                     </div>
 
                 </div>
