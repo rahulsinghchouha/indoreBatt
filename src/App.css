@@ -299,3 +299,6 @@ p,
   opacity: 40%;
   background-color: #f4f4f4;
 }
+.borDer{
+  border: 1px solid rgba(225, 231, 229, 0.979);
+}

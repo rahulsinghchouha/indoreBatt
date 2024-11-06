@@ -8,80 +8,80 @@ const ShopCar = () => {
 
             <div className=" w-[65%] h-[60%] mt-4 container ">
 
-                <figure className=" hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-2">
+                <figure className=" hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-2 flex justify-center items-center">
                     <img src="/2024_2_pngwing 6.png" />
 
                 </figure>
 
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="/2024_1_ford-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="/2024_1_renault-logo.png" />
 
                 </figure>
 
-                <figure className="  p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="   hover:hover:bg-[#ff76370a] p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="/2024_2_image 5.png" />
 
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_jaguar-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px]  border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px]  border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_mg-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_mitsubishi-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_Jeep-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_hyundai-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_Tata-Logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_skoda-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px]  border-b-[1px]">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px]  border-b-[1px] flex justify-center items-center">
                     <img src="2024_1_bmw-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] flex justify-center items-center ">
                     <img src="2024_1_volkswagon-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px]  flex justify-center items-center">
                     <img src="2024_1_nissan-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] flex justify-center items-center ">
                     <img src="2024_1_mercedes-benz-car-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px]  flex justify-center items-center">
 
                     <img src="2024_1_Suzuki_logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px] ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] border-r-[1px]  flex justify-center items-center">
                     <img src="2024_1_hyundai-logo.png" />
                 </figure>
 
-                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px]  ">
+                <figure className="  hover:hover:bg-[#ff76370a] cursor-pointer p-[40px] flex justify-center items-center ">
                     <img src="2024_1_Fiat-logo.png" />
                 </figure>
 
@@ -229,33 +229,37 @@ const ShopCar = () => {
             </div>
             <h1 className=" mt-20 mb-12 text-[35px] font-[700] leading-[2] tracking-[1.5px] title"> SHOP CAR BATTERY BY <span className="title text-[#ff7637]">BRANDS</span></h1>
             <section className="font-[oswald] mt-[55px] w-[65%] h-auto">
-                <div className="grid grid-cols-5 gap-12 justify-center items-center h-[10%]">
-                    <div className=" flex justify-center items-center gap-10 w-auto h-[120px] hover:bg-[#ff76370a]">
+                <div className="flex  h-[10%]">
+                    <div className=" flex justify-center items-center w-[250px] h-[180px]  hover:bg-[#ff76370a] p-10">
                         <figure className="  " >
                             <img src="/2024_3_Amaron_logo.png" />
                         </figure>
-                        <div className="border-r-[1px] h-[200px] "></div>
+                     
+                      
                     </div>
-
-                    <div className=" h-[120px] w-auto flex justify-center  items-center gap-10 hover:bg-[#ff76370a] ">
+                    <div className=" h-[180px] border-r-[1px] border-[#000000] opacity-10"></div>
+                    <div className=" h-[180px] w-[250px] flex justify-center  items-center  hover:bg-[#ff76370a] p-10">
                         <figure className=" ">
                             <img src="/2024_3_sf-batteries-logo_novo.png" />
                         </figure>
-                        <div className="border-r-[1px] h-[200px] "></div>
+                      
                     </div>
-                    <div className=" h-[120px] w-auto flex justify-center  items-center gap-10 hover:bg-[#ff76370a]">
+                    <div className=" h-[180px] border-r-[1px] border-[#000000] opacity-10"></div>
+                    <div className=" h-[180px] w-[250px] flex justify-center  items-center hover:bg-[#ff76370a] p-10">
                         <figure className=" ">
                             <img src="/2024_1_exide-logo.svg" />
                         </figure>
-                        <div className="border-r-[1px] h-[200px] "></div>
+                      
                     </div>
-                    <div className=" h-[120px] w-auto flex justify-center  items-center gap-10 hover:bg-[#ff76370a]">
+                    <div className=" h-[180px] border-r-[1px] border-[#000000] opacity-10"></div>
+                    <div className=" h-[180px] w-[250px] flex justify-center  items-center  hover:bg-[#ff76370a] p-10">
                         <figure className=" ">
                             <img src="2024_3_tata-green-batteries-logo-vector.png" />
                         </figure>
-                        <div className="border-r-[1px] h-[200px] "></div>
+                      
                     </div>
-                    <div className=" h-[120px] w-auto flex justify-center  items-center gap-10 hover:bg-[#ff76370a] ">
+                    <div className=" h-[180px] border-r-[1px] border-[#000000] opacity-10"></div>
+                    <div className=" h-[180px] w-[250px] flex justify-center  items-center  hover:bg-[#ff76370a] p-10">
                         <figure className=" ">
                             <img src="/2024_1_livguard.png" />
 

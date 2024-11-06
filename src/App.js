@@ -14,9 +14,9 @@ import Footer from './Components/Common/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar className="sticky  top-0 h-screen m-2" />
-      <Menus className=" sticky  top-0 h-screen m-2" />
-      <Adverties className="sticky top-0 h-screen p-2" />
+      <Navbar className="sticky  top-0 m-2" />
+      <Menus className=" sticky  top-0 m-2" />
+      <Adverties className="sticky top-0 p-2" />
       <Main />
       <Dividers />
       <KnowMore />

@@ -215,11 +215,11 @@ const items2 = [
 
 const Navbar = () => {
 
-    const navigate = useNavigate();
+   
 
 
     return (
-        <div>
+        <div className="sticky">
             <Layout className=" w-[100%]  bg-white  mx-auto justify-center align-middle border-b-2 ">
                 <Header
                     theme
