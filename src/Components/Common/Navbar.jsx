@@ -215,62 +215,64 @@ const items2 = [
 
 const Navbar = () => {
 
-   
+
 
 
     return (
-        <div className="sticky">
-            <Layout className=" w-[100%]  bg-white  mx-auto justify-center align-middle border-b-2 ">
-                <Header
-                    theme
+        <div>
+            <div className=" w-[100%]  bg-white  border-b-2 ">
+                <header
+
                     className="  bg-white  w-[95%] mx-auto flex justify-between items-center p-3 "
                 >
-                    <Menu
-                        theme="white" className="flex items-center">
-                        <Menu.Item>
-                            <img style={{ width: 35 }} src='./logo.svg' className="" />
-                            <Typography.Title level={3} className="text-[22px] ml-1 title" >Indore Battery</Typography.Title>
-                        </Menu.Item>
+                    <div
+                        className="flex items-center gap-4">
+                        <div className="flex items-center gap-2">
+                        <img style={{ width: 35 }} src='./logo.svg' className="" />
+                        <h1 level={3} className="text-[22px] ml-1 title" >Indore Battery</h1>
+                        </div>
 
-
-                        <Menu className="flex flex-row font-bold">
-                            <Menu.Item>
+                        <div className="flex gap-4 font-bold cursor-pointer ">
+                            <div>
                                 <Dropdown menu={{ items: items1, className: 'custom-dropdown-menu' }} overlayClassName="custom-dropdown-overlay" >
                                     <a onClick={(e) => e.preventDefault()}>
-                                        <Space>
+                                        <div className="flex">
                                             Categories
                                             <DownOutlined style={{ color: 'rgb(255 118 55)' }} />
-                                        </Space>
+                                        </div>
                                     </a>
                                 </Dropdown>
-                            </Menu.Item>
-                            <Menu.Item className="">
+                            </div>
+                            <div className="">
                                 <Dropdown menu={{ items: items2 }}>
                                     <a onClick={(e) => e.preventDefault()}>
-                                        <Space>
+                                        <div className="flex">
                                             Brand
                                             <DownOutlined style={{ color: 'rgb(255 118 55)' }} />
-                                        </Space>
+                                        </div>
                                     </a>
                                 </Dropdown>
-                            </Menu.Item>
-                        </Menu>
-                    </Menu>
+                            </div>
+                        </div>
 
-                    <Menu className="flex align-middle">
+
+
+                    </div>
+
+
+
+
+                    <div className="flex gap-6">
                         <a href="https://indorebattery.com/login">
-                            <Menu.Item ><FiUser style={{ fontSize: '24px', marginTop: 8 }} /></Menu.Item>
-
+                            <div ><FiUser style={{ fontSize: '24px', marginTop: 8 }} /></div>
                         </a>
                         <a href="https://indorebattery.com/login" className="mt-2">
-                            <Menu.Item ><TbShoppingCartBolt style={{ fontSize: '25px' }} /></Menu.Item>
+                            <div ><TbShoppingCartBolt style={{ fontSize: '25px' }} /></div>
                         </a>
-                    </Menu>
-
-                </Header>
-
-            </Layout>
-        </div>
+                    </div>
+                </header>
+            </div >
+        </div >
     )
 }
 
